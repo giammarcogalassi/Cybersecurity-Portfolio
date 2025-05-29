@@ -1,36 +1,68 @@
 # Cybersecurity Portfolio
 
-Documentazione del mio percorso di studio per le certificazioni CompTIA Security+ (SY0-701), eJPT e labs pratici.
+This repository documents my journey in cybersecurity, featuring practical labs, vulnerability assessments, and hands-on penetration testing experiences. It showcases both theoretical knowledge and practical skills developed through structured learning and self-directed research.
 
-## Struttura del Repository
+**Current Focus**: eJPT certification preparation, practical penetration testing, and network security analysis.
 
-### Security+ (SY0-701)
-- [1. Attacchi, Minacce e Vulnerabilità](./Security-Plus/1-Attacks-Threats-Vulnerabilities/)
-- [2. Architettura e Design](./Security-Plus/2-Architecture-Design/)
-- [3. Implementazione](./Security-Plus/3-Implementation/)
-- [4. Operazioni e Risposta agli Incidenti](./Security-Plus/4-Operations-Incident-Response/)
-- [5. Governance, Rischi e Conformità](./Security-Plus/5-Governance-Risk-Compliance/)
+## 🎯 Current Skills & Expertise
 
-### eJPT (Penetration Testing)
-- [1. Information Gathering](./eJPT/1-Information-Gathering/)
-- [2. Footprinting & Scanning](./eJPT/2-Footprinting-Scanning/)
-- [3. Vulnerability Assessment](./eJPT/3-Vulnerability-Assessment/)
-- [4. Exploitation](./eJPT/4-Exploitation/)
-- [5. Post-Exploitation](./eJPT/5-Post-Exploitation/)
+### Network Security
+- Port scanning and network discovery (Nmap)
+- Vulnerability assessment (Nessus) 
+- Network traffic analysis (Wireshark)
+- MITM attacks and ARP poisoning
+- Protocol analysis (SMB, NetBIOS, HTTP/HTTPS)
 
-### Labs Pratici
-- [TryHackMe](./Labs/TryHackMe/)
-- [HackTheBox](./Labs/HackTheBox/)
+### Penetration Testing
+- Metasploit Framework exploitation
+- EternalBlue (MS17-010) exploitation
+- Post-exploitation with Meterpreter
+- Windows privilege escalation
+- Web application testing (Burp Suite, DVWA)
 
-### Risorse
-- [Cheatsheets](./Resources/Cheatsheets/)
-- [Tools](./Resources/Tools/)
-- [Immagini](./Resources/Images/)
+### Tools & Frameworks
+- **Reconnaissance**: Nmap, arp-scan, Netcat
+- **Exploitation**: Metasploit, Ettercap, Hydra
+- **Analysis**: Wireshark, Burp Suite
+- **Systems**: Kali Linux, VirtualBox lab environment
 
-## Progressi
-- [x] Configurazione repository
+## 📁 Repository Structure
 
+### Practical Labs
+- **[TryHackMe](./Labs/TryHackMe/)** - CTF challenges and guided learning paths
+- **[HackTheBox](./Labs/HackTheBox/)** - Advanced penetration testing scenarios
 
-## Piano di Studio
-- Security+ SY0-701: Marzo - Giugno 2024
-- eJPT: Luglio - Settembre 2024
+### Resources  
+- **[Cheatsheets](./Resources/Cheatsheets/)** - Quick reference guides for tools and techniques
+- **[Tools](./Resources/Tools/)** - Custom scripts and tool configurations
+- **[Images](./Resources/Images/)** - Screenshots and documentation visuals
+
+## 🚀 Recent Projects
+
+### MS17-010 EternalBlue Exploitation Lab
+- Configured isolated VirtualBox environment
+- Successfully exploited Windows 7/2008 systems
+- Demonstrated post-exploitation techniques with Meterpreter
+- Analyzed SMB protocol vulnerabilities
+
+### Network Traffic Analysis Project
+- MITM attack implementation using Ettercap
+- HTTP credential harvesting from unencrypted traffic
+- Wireshark packet analysis and filtering techniques
+
+## 🎓 Certifications & Learning Path
+
+- **In Progress**: eJPT (eLearnSecurity Junior Penetration Tester)
+- **Passed**: CompTIA Security+ SY0-701
+- **Completed**: Cybersecurity Course - Epicode
+
+## 🔬 Lab Environment
+
+- **Platform**: VirtualBox with isolated internal network
+- **Systems**: Kali Linux, Metasploitable, Windows 10/7
+- **Focus**: Practical exploitation in controlled environment
+- **Methodology**: Ethical hacking and responsible disclosure
+
+---
+
+*This portfolio demonstrates hands-on cybersecurity skills developed through practical labs and structured learning. All testing is conducted in isolated environments for educational purposes.*
