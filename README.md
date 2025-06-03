@@ -1,68 +1,25 @@
-# Cybersecurity Portfolio
+# Cybersecurity Lab Documentation
 
-This repository documents my journey in cybersecurity, featuring practical labs, vulnerability assessments, and hands-on penetration testing experiences. It showcases both theoretical knowledge and practical skills developed through structured learning and self-directed research.
+This repository contains step-by-step methodologies and procedures developed during hands-on cybersecurity training and vulnerability assessment practice.
 
-**Current Focus**: eJPT certification preparation, practical penetration testing, and network security analysis.
+## Documentation Structure
 
-## 🎯 Current Skills & Expertise
+- **`ms17-010-testing.md`** - Complete MS17-010 EternalBlue exploitation methodology from discovery to post-exploitation
+- **`mitm-attack-procedure.md`** - Manual MITM attack setup using Ettercap and traffic analysis with Wireshark
+- **`network-discovery.md`** - Network reconnaissance and service enumeration procedures
+- **`evidence-collection.md`** - Post-exploitation evidence gathering and documentation techniques
 
-### Network Security
-- Port scanning and network discovery (Nmap)
-- Vulnerability assessment (Nessus) 
-- Network traffic analysis (Wireshark)
-- MITM attacks and ARP poisoning
-- Protocol analysis (SMB, NetBIOS, HTTP/HTTPS)
+## Lab Environment
 
-### Penetration Testing
-- Metasploit Framework exploitation
-- EternalBlue (MS17-010) exploitation
-- Post-exploitation with Meterpreter
-- Windows privilege escalation
-- Web application testing (Burp Suite, DVWA)
+All procedures were tested in isolated VirtualBox environments:
+- **Attacker**: Kali Linux 2024.1
+- **Targets**: Windows 7 SP1, Windows 10, Metasploitable
+- **Network**: Internal isolated network (192.168.1.0/24)
 
-### Tools & Frameworks
-- **Reconnaissance**: Nmap, arp-scan, Netcat
-- **Exploitation**: Metasploit, Ettercap, Hydra
-- **Analysis**: Wireshark, Burp Suite
-- **Systems**: Kali Linux, VirtualBox lab environment
+## Purpose
 
-## 📁 Repository Structure
+These documents serve as technical reference for penetration testing methodologies and vulnerability assessment procedures. All testing was conducted in controlled lab environments for educational purposes.
 
-### Practical Labs
-- **[TryHackMe](./Labs/TryHackMe/)** - CTF challenges and guided learning paths
-- **[HackTheBox](./Labs/HackTheBox/)** - Advanced penetration testing scenarios
+## Disclaimer
 
-### Resources  
-- **[Cheatsheets](./Resources/Cheatsheets/)** - Quick reference guides for tools and techniques
-- **[Tools](./Resources/Tools/)** - Custom scripts and tool configurations
-- **[Images](./Resources/Images/)** - Screenshots and documentation visuals
-
-## 🚀 Recent Projects
-
-### MS17-010 EternalBlue Exploitation Lab
-- Configured isolated VirtualBox environment
-- Successfully exploited Windows 7/2008 systems
-- Demonstrated post-exploitation techniques with Meterpreter
-- Analyzed SMB protocol vulnerabilities
-
-### Network Traffic Analysis Project
-- MITM attack implementation using Ettercap
-- HTTP credential harvesting from unencrypted traffic
-- Wireshark packet analysis and filtering techniques
-
-## 🎓 Certifications & Learning Path
-
-- **In Progress**: eJPT (eLearnSecurity Junior Penetration Tester)
-- **Passed**: CompTIA Security+ SY0-701
-- **Completed**: Cybersecurity Course - Epicode
-
-## 🔬 Lab Environment
-
-- **Platform**: VirtualBox with isolated internal network
-- **Systems**: Kali Linux, Metasploitable, Windows 10/7
-- **Focus**: Practical exploitation in controlled environment
-- **Methodology**: Ethical hacking and responsible disclosure
-
----
-
-*This portfolio demonstrates hands-on cybersecurity skills developed through practical labs and structured learning. All testing is conducted in isolated environments for educational purposes.*
+All techniques documented here are for educational and authorized testing purposes only. Use only in environments you own or have explicit permission to test.
