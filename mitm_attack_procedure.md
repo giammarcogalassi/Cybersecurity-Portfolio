@@ -142,8 +142,19 @@ File > Export Specified Packets > Save as .pcap
 # Disable IP forwarding
 echo 0 | sudo tee /proc/sys/net/ipv4/ip_forward
 
-# Verify network connectivity restored on victim
-ping 8.8.8.8  # Should work normally
+# Monitor victim's outbound traffic (from attacker machine)
+tcpdump -i eth0 src 192.168.1.10 and dst not 192.168.1.0/24
+# If you see traffic to internet = connectivity restored
+
+# Verify connectivity (requires victim machine access)
+# Option 1: Physical/RDP access to victim
+ping 8.8.8.8  # Run on victim machine
+
+# Option 2: Remote shell (if compromised)
+# Execute via existing backdoor/meterpreter session
+
+# Option 3: No victim access
+# Monitor only - connectivity assumed if normal traffic resumes
 ```
 
 ## Detection Indicators
